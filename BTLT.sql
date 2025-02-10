@@ -92,7 +92,7 @@ ORDER BY maSV ASC;
 SELECT maSV, CONCAT(hoSV, ' ', tenSV) AS HoTen, phai, ngaySinh
 FROM SINHVIEN
 ORDER BY CASE WHEN phai = 'Nam' THEN 0 ELSE 1 END;
-
+---
 -- Bài 3:
 SELECT CONCAT(hoSV, ' ', tenSV) AS HoTen, ngaySinh, hocBong
 FROM SINHVIEN
